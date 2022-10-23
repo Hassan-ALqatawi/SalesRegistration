@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تسجيل المبيعات </string>
+    <string name="customer_name">اسم العميل</string>
+    <string name="cup">كب</string>
+    <string name="aryw">اريو</string>
+    <string name="avene">افين</string>
+    <string name="rws">روص</string>
+    <string name="hibard">هبرد</string>
+    <string name="ayar">اي ار</string>
+    <string name="note1">م</string>
+    <string name="note2">م2</string>
+    <string name="add">اضافة عميل</string>
+    <string name="update">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="day">اليوم</string>
+    <string name="masg">من فضلك اضغط علي زار اليوم لتحديد التاريخ</string>
+    <string name="newDay">يوم جديد</string>
+    <string name="date">التاريخ</string>
+    <string name="sam">المجموع</string>
+    <string name="todo">TODO</string>
+    <string name="addCustomer">اضافة عميل</string>
+    <string name="share">مشاركه</string>
+    <string name="archive">الارشيف</string>
+    <string name="about">عن</string>
+    <string name="ok">تم</string>
+    <string name="deleteDate">تم حذف التاريخ</string>
+    <string name="addDate">تم اضافة التاريخ</string>
+    <string name="deleteCustomer">تم جذف بيانات العميل</string>
+    <string name="updateCustomer">تم تعديل بيانات العميل</string>
+</resources>

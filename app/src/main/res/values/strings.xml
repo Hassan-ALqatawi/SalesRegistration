@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SalesRegistration </string>
+    <string name="customer_name">Customer Name</string>
+    <string name="cup">Cup</string>
+    <string name="aryw">Aryw</string>
+    <string name="avene">Avene</string>
+    <string name="rws">Rws</string>
+    <string name="hibard">Hibard</string>
+    <string name="ayar">Ay_Ar</string>
+    <string name="note1">Note_1</string>
+    <string name="note2">Note_2</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="newDay">NewDay</string>
+    <string name="day">Day</string>
+    <string name="masg">Please click visit today to select the date</string>
+    <string name="date">date</string>
+    <string name="sam">Sam</string>
+    <string name="todo">TODO</string>
+    <string name="addCustomer">AddCustomer</string>
+    <string name="share">Share</string>
+    <string name="archive">Archive</string>
+    <string name="about">About</string>
+    <string name="ok">Ok</string>
+    <string name="deleteDate">DeleteDate</string>
+    <string name="addDate">AddDate</string>
+    <string name="deleteCustomer">DeleteCustomer</string>
+    <string name="updateCustomer">UpdateCustomer</string>
+
+</resources>
