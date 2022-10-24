@@ -54,19 +54,6 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/item_ed_rws"
-            android:layout_width="@dimen/_35sdp"
-            android:layout_height="match_parent"
-            android:layout_margin="@dimen/_1sdp"
-            android:background="@color/rws"
-            android:gravity="center"
-            android:inputType="number"
-            android:padding="@dimen/_1sdp"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_10ssp"
-            android:textStyle="bold" />
-
-        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/item_ed_aryw"
             android:layout_width="@dimen/_35sdp"
             android:layout_height="match_parent"
@@ -91,6 +78,19 @@
             android:textColor="@color/white"
             android:textSize="@dimen/_10ssp"
             android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/item_ed_rws"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_1sdp"
+            android:background="@color/rws"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="@dimen/_1sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/item_ed_hibard"

@@ -24,6 +24,7 @@ class ViewModelApp( private val repository: RepositoryApp) : ViewModel() {
 
     fun getCustomerForDelete(date:String):List<Customers>{
         return repository.getDataCustomerForDelete(date)
+
     }
     fun insertDate(date:Dates):Job = viewModelScope.launch {
         val newDate = repository.addDate(date)

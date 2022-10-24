@@ -1,5 +1,6 @@
 package com.h_alqatawi.mansourepoultrycompany.model
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -48,9 +49,11 @@ class ArchiveAdapter(context: Context) : RecyclerView.Adapter<ArchiveAdapter.Arc
         return list.size
     }
 
+
     fun addList(dateList: List<Dates>) {
         list.clear()
         list.addAll(dateList)
+
 
     }
 
@@ -70,6 +73,7 @@ class ArchiveAdapter(context: Context) : RecyclerView.Adapter<ArchiveAdapter.Arc
                 context.startActivity(i)
             }
             binding.itemArchiveButDate.setOnClickListener {
+
                 GlobalScope.launch(Dispatchers.IO) {
                     val cus = viewModelApp.getCustomerForDelete(dates.date)
                     for (c in cus) {
@@ -77,7 +81,8 @@ class ArchiveAdapter(context: Context) : RecyclerView.Adapter<ArchiveAdapter.Arc
                     }
                     viewModelApp.deleteDate(dates)
                 }
-                val i = Intent(context, ArchiveActivity::class.java)
+
+               val i = Intent(context, ArchiveActivity::class.java)
                 context.startActivity(i)
 
             }
